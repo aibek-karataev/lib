@@ -180,7 +180,15 @@ p,b,a,strong,ul,li,span{
   display: flex;
   flex-direction: column;
 }
-
+.carousel-inner{
+  max-height: 350px !important;
+  .carousel-item{
+    max-height: 350px !important;
+    img{
+      max-height: 350px !important;
+    }
+  }
+}
 
 @media screen and (max-width:992px) {
   .content{
